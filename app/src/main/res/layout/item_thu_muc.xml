@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="8dp"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/tv_ten_thu_muc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="tittle sing"
+            android:textSize="17dp"
+            android:textColor="@color/black"
+            android:paddingBottom="4dp"
+            />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/tv_sing_of_folder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" "
+                />
+            <TextView
+                android:id="@+id/tv_album_of_sing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bai hat"
+                />
+
+        </TableRow>
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="64dp" />
+
+</LinearLayout>

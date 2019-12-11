@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/music_albums"
+        android:padding="10dp"
+        android:background="@drawable/item_background_image"
+        android:tint="@color/colorPrimaryDark"
+        />
+    <TextView
+        android:gravity="center"
+        android:id="@+id/tv_name_album"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ten album"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:layout_marginLeft="4dp"
+        />
+    <TextView
+        android:gravity="center"
+        android:id="@+id/tv_name_singer_of_album"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="12dp"
+        android:text="ten ca si"
+        android:layout_marginLeft="4dp"
+        />
+
+
+</LinearLayout>

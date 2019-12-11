@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:orientation="horizontal"
+            android:background="@color/colorPrimary"
+            android:padding="1dp"
+            >
+            <Button
+                android:id="@+id/btn_ss_ten"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Ten"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@color/white"
+                android:textAllCaps="false"
+
+                />
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/down_arrow_black"
+                android:scaleType="fitCenter"
+                android:background="@color/white"
+                android:padding="4dp"
+                android:layout_marginRight="1dp"
+                />
+
+            <Button
+                android:id="@+id/btn_ss_ngay"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Ngay"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@color/white"
+                android:textAllCaps="false"
+                />
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/down_arrow_black"
+                android:scaleType="fitCenter"
+                android:background="@color/white"
+                android:padding="4dp"
+                android:layout_marginRight="1dp"
+                />
+            <Button
+                android:id="@+id/btn_ss_ngon_ngu"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Ngon Ngu"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@color/white"
+                android:textAllCaps="false"
+                />
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/down_arrow_black"
+                android:scaleType="fitCenter"
+                android:background="@color/white"
+                android:padding="4dp"
+                android:layout_marginRight="1dp"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@color/colorPrimary"
+            android:paddingBottom="2dp"
+            >
+            <TableRow
+                android:id="@+id/btn_play_all_sing"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:orientation="horizontal"
+                android:background="@drawable/bachgrounk_item_list"
+                >
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/play_arrow"
+                    android:padding="12dp"
+                    android:id="@+id/imageView" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Phat tat ca"
+                    android:textSize="18dp"
+                    android:gravity="left|center"
+                    android:textColor="@color/black"
+                    android:textAllCaps="false"
+                    android:id="@+id/textView"
+                    />
+
+            </TableRow>
+            <TableRow
+                android:background="@color/white"
+                android:id="@+id/btn_choose_sing"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/list"
+                    android:padding="12dp"
+                    android:layout_marginLeft="4dp"
+                    android:background="@color/white"
+                    android:id="@+id/imageView2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Chon"
+                    android:textSize="18dp"
+                    android:gravity="left|center"
+                    android:textColor="@color/black"
+                    android:background="@color/white"
+                    android:textAllCaps="false"
+                    android:paddingRight="4dp"
+                    />
+            </TableRow>
+        </TableRow>
+
+</LinearLayout>
